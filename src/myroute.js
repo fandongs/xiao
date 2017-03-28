@@ -126,6 +126,7 @@ define(['router', 'jquery'], function (Router, $) {
                   console.log('个人中心')
                   require(['src/n4/n4.js'], function (n4) {
                         n4.add();
+                        n4.get();
                   })
             })
            

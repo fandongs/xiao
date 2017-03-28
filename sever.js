@@ -163,6 +163,23 @@ app.get('/more',function(req,res){
 });
 
 
+// 购物
+app.get('n4',function(req,res){
+    fs.readFile(__dirname + '/public/data/dest.json',function(err,data){
+        if(err){
+            console.log(err)
+        }else{
+            console.log(data);
+            var json = JSON.parse(data);
+            res.json(json)
+        }
+    })
+});
+
+
+
+
+
 
 app.get('/getcz',function(req,res){
    fs.readFile(__dirname+'/public/data/cz.json',function(err,data){
