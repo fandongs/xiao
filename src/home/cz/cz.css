@@ -1,0 +1,73 @@
+.home{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  padding-left: 0.27rem;
+  padding-top: 0.27rem;
+  display: flex;
+}
+.home-left{
+    padding-right: 0.27rem;
+    float: left;
+    width: 187px;
+    box-sizing: border-box;
+}
+.home-right{
+    float: left;
+    width: 187px;
+     box-sizing: border-box;
+}
+.box{
+    background: #fff;
+    padding: 10px;
+     box-shadow: 1px 1px 1px #ccc;
+  
+  margin-bottom:  0.27rem;
+    
+}
+.p1{
+font-size: 1.5rem;
+margin-top:1rem;
+padding: 5px;
+
+
+}
+.p2{
+ display: -webkit-box;
+  font-size: .24rem;
+  margin-bottom: .15rem;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box img{
+    width: 100%;
+}
+.box .item-auth{
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.box .item-auth .avatar{
+  flex: 1;
+}
+.avatar img{
+    width: 20px;height: 20px;
+    border-radius: 20px;
+}
+.box .item-auth .name{
+  text-align: left;
+  flex: 3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.box .item-auth .likes{
+  flex: 1;
+}

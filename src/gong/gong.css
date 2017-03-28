@@ -1,0 +1,131 @@
+/* line 1, gong.scss */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/* line 6, gong.scss */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/* line 7, gong.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 10, gong.scss */
+body {
+  overflow: hidden;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+/* line 15, gong.scss */
+nav {
+  width: 100%;
+  height: 4.5rem;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 100; }
+
+/* line 22, gong.scss */
+nav ul {
+  width: 100%;
+  height: 100%;
+  height: 4.5rem;
+  display: flex;
+  text-align: center;
+  line-height: 4.5rem; }
+
+/* line 29, gong.scss */
+nav ul li {
+  list-style: none;
+  flex: 1;
+  position: relative; }
+
+/* line 34, gong.scss */
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem; }
+
+/* line 41, gong.scss */
+.li1 {
+  margin-left: 4.5rem; }
+
+/* line 44, gong.scss */
+.logo {
+  width: 5.5rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 1.3rem; }
+
+/* line 52, gong.scss */
+.logor {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  right: 1.7rem;
+  top: 1.3rem; }
+
+/* line 60, gong.scss */
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(51, 51, 51, 0.8);
+  width: 100%;
+  height: 5.6rem;
+  position: relative; }
+  /* line 68, gong.scss */
+  .footer p {
+    line-height: 5.6rem;
+    margin-left: 5.3rem;
+    font-size: 1.5rem;
+    color: #fff; }
+  /* line 75, gong.scss */
+  .footer .xl {
+    width: 3.8rem;
+    height: 3.8rem;
+    background: #ff2842;
+    border-radius: 10%;
+    position: absolute;
+    left: 0.6rem;
+    top: 1rem;
+    text-align: center;
+    line-height: 3.7rem; }
+    /* line 85, gong.scss */
+    .footer .xl a {
+      color: #fff;
+      font-size: 1.3rem;
+      text-decoration: none; }
+  /* line 92, gong.scss */
+  .footer .xr {
+    width: 6.9rem;
+    height: 2.6rem;
+    background: #ff2842;
+    border-radius: 2%;
+    position: absolute;
+    right: 0.6rem;
+    top: 1.7rem;
+    text-align: center;
+    line-height: 2.6rem; }
+    /* line 102, gong.scss */
+    .footer .xr a {
+      color: #fff;
+      font-size: 1.3rem;
+      text-decoration: none; }
+
+/* line 112, gong.scss */
+#container {
+  -webkit-flex-grow: 1;
+  width: 100%;
+  margin-top: 4.5rem;
+  background: #eee;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=gong.css.map */

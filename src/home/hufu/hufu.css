@@ -1,0 +1,19 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+.home-left{
+    float: left;
+    width: 187px;
+}
+.home-right{
+    float: left;
+    width: 187px;
+}
+.box{
+    width: 100%;
+    background: #fff;
+}
+.box img{
+    width: 100%;
+}

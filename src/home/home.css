@@ -1,0 +1,125 @@
+.cover{
+   width: 100%;height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.swiper-container {
+   width: 100%;
+   margin: 1px auto;
+}
+.swiper-slide {
+   text-align: center;
+   font-size: 14px;
+   background: #fff;
+   height: 45px;
+
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+}
+
+.life-content{
+  width: 100%;height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.selected{
+  border-bottom: solid 2px red;
+}
+.fixed-menu{
+  width: 414px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 30;
+  top: -1px;
+}
+
+
+.che{
+  width: 100%;height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.home{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  padding-left: 0.27rem;
+  padding-top: 0.27rem;
+  display: flex;
+}
+.home-left{
+    padding-right: 0.27rem;
+    float: left;
+    width: 187px;
+    box-sizing: border-box;
+}
+.home-right{
+    float: left;
+    width: 187px;
+     box-sizing: border-box;
+}
+.box{
+    background: #fff;
+    padding: 10px;
+     box-shadow: 1px 1px 1px #ccc;
+  
+  margin-bottom:  0.27rem;
+    
+}
+.p1{
+font-size: 1.5rem;
+margin-top:1rem;
+padding: 5px;
+
+
+}
+.p2{
+ display: -webkit-box;
+  font-size: .24rem;
+  margin-bottom: .15rem;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box img{
+    width: 100%;
+}
+.box .item-auth{
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+.box .item-auth .avatar{
+  flex: 1;
+}
+.avatar img{
+    width: 20px;height: 20px;
+    border-radius: 20px;
+}
+.box .item-auth .name{
+  text-align: left;
+  flex: 3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.box .item-auth .likes{
+  flex: 1;
+}

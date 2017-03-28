@@ -1,0 +1,120 @@
+ *{padding: 0;margin: 0;
+ list-style: none;
+ text-decoration: none;
+ box-sizing:border-box;
+ }
+        html,body{width: 100%;height: 100%;}
+        html{
+          font-size: 62.5%;
+        }
+        body{
+          overflow: hidden;
+          display: flex;
+          -webkit-flex-direction:column;
+        }
+        nav{
+          width: 100%;height: 4.5rem;
+          position:fixed;
+          top: 0;
+          background: #fff;
+          z-index: 100;
+        }
+        nav ul{
+          width: 100%;height: 100%;
+          height: 4.5rem;
+          display: flex;
+          text-align: center;
+          line-height: 4.5rem;
+        }
+        nav ul li{
+          list-style: none;
+          flex: 1;
+          position: relative;
+        }
+         nav ul li a{
+           display: block;
+          text-decoration: none;
+          color: black;
+          font-size: 1.3rem;
+
+        }
+        .li1{
+          margin-left: 4.5rem;
+        }
+       .logo{
+          width: 5.5rem;
+          height: 2.1rem;
+          position: absolute;
+          left: 1.3rem;
+          top: 1.3rem;
+          
+       }
+       .logor{
+          width: 1.6rem;
+          height: 1.6rem;
+          position: absolute;
+          right: 1.7rem;
+          top: 1.3rem;
+          
+       }
+       .footer{
+         position: fixed;
+         bottom:0;
+         z-index: 100;
+         background: rgba(51,51,51,0.8);
+         width: 100%;
+         height: 5.6rem;
+         position: relative;
+         p{
+          line-height: 5.6rem;
+          margin-left: 5.3rem;
+          font-size: 1.5rem;
+          color: #fff;
+         }
+
+         .xl{
+           width: 3.8rem;
+           height: 3.8rem;
+           background: #ff2842;
+           border-radius: 10%;
+           position: absolute;
+           left: 0.6rem;
+           top:1rem;
+           text-align: center;
+           line-height: 3.7rem;
+           a{
+             color: #fff;
+             font-size: 1.3rem;
+            
+             text-decoration: none;
+           }
+         }
+         .xr{
+            width: 6.9rem;
+           height:2.6rem;
+           background: #ff2842;
+           border-radius: 2%;
+           position: absolute;
+           right: 0.6rem;
+           top:1.7rem;
+           text-align: center;
+           line-height: 2.6rem;
+           a{
+             color: #fff;
+             font-size: 1.3rem;
+            
+             text-decoration: none;
+           }
+         }
+
+       }
+
+        #container{
+          -webkit-flex-grow:1;
+          width: 100%;
+          // height: 100%;
+          margin-top: 4.5rem;
+          background: #eee;
+          overflow-x: hidden;
+         
+        }
